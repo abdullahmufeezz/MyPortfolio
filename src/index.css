@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'DM Sans', 'Outfit', sans-serif;
+  overflow-x: hidden;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 99px;
+}
+
+/* Interactive Animations & States */
+.sk:hover {
+  transform: translateY(-7px) scale(1.04) !important;
+  box-shadow: 0 0 24px var(--glow) !important;
+  border-color: var(--accent) !important;
+}
+
+.pc:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: 0 16px 48px var(--glow) !important;
+}
+
+.sp:hover {
+  opacity: 0.82;
+  transform: scale(1.06);
+}
+
+.ni:hover {
+  background: var(--glow) !important;
+  color: var(--accent2) !important;
+  border-color: var(--accent) !important;
+}
+
+.ib:hover {
+  background: var(--accent) !important;
+  border-color: var(--accent) !important;
+}
+
+.crd:hover {
+  border-color: var(--accent) !important;
+  transform: translateY(-3px) !important;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-13px); }
+}
+
+@keyframes spin-s {
+  from { transform: rotate(0); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.hf { animation: float 4.5s ease-in-out infinite; }
+.sr { animation: spin-s 22s linear infinite; }
+.cb { animation: blink 0.85s infinite; }
+
+/* Responsive Adaptations */
+@media(max-width: 768px) {
+  .nd { display: none !important; }
+  .mb { display: flex !important; }
+  .hfl { flex-direction: column !important; text-align: center !important; }
+  .hac { order: -1 !important; }
+  .ag { grid-template-columns: 1fr !important; }
+  .sg { grid-template-columns: repeat(3, 1fr) !important; }
+  .pg { grid-template-columns: 1fr !important; }
+  .cg { grid-template-columns: 1fr !important; }
+  .srow { justify-content: center !important; }
+}
