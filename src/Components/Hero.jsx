@@ -51,7 +51,7 @@ export default function Hero({ sectionRef, fi, typed, go, SOCIALS, T, dark }) {
           </div>
           {[
             { label: "React Dev", top: "4%", right: "-14%", c: "#61dafb" },
-            { label: "ML & Python", bottom: "8%", left: "-16%", c: "#10b981" },
+            { label: "Python", bottom: "8%", left: "-16%", c: "#10b981" },
             { label: "CS @ UoK", top: "46%", right: "-18%", c: "#f59e0b" }
           ].map(b => (
             <div key={b.label} style={{ position: "absolute", top: b.top, bottom: b.bottom, left: b.left, right: b.right, padding: "0.38rem 0.85rem", borderRadius: "99px", background: dark ? "#1a1a24" : "#fff", border: `1px solid ${b.c}50`, fontSize: "0.7rem", fontWeight: 600, color: b.c, whiteSpace: "nowrap", boxShadow: `0 4px 16px ${b.c}20` }}>
