@@ -14,7 +14,7 @@ export default function About({ sectionRef, fi, EDUCATION, SOCIALS, pill, T }) {
               I am a Computer Science enthusiast with a strong foundation in programming, algorithms, and problem-solving. I am passionate about building efficient, user-friendly applications across web development and data science.
             </p>
             <p style={{ color: T.text2, lineHeight: 1.82, marginBottom: "1.75rem" }}>
-              I thrive in dynamic environments applying technical and analytical skills to create real-world impact — whether a full-stack web app or a machine learning pipeline.
+              I thrive in dynamic environments applying technical and analytical skills to create real-world impact.
             </p>
 
             <div style={{ padding: "1.1rem 1.25rem", borderRadius: "12px", background: T.bg, border: `1px solid ${T.border}`, marginBottom: "1.5rem" }}>
