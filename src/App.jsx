@@ -26,7 +26,7 @@ const SKILLS = [
   { name: "NumPy", key: "numpy", color: "#4DABCF", bg: "#4DABCF20", category: "Data Science" },
   { name: "Pandas", key: "pandas", color: "#a78bfa", bg: "#a78bfa20", category: "Data Science" },
   { name: "Scikit-learn", key: "sklearn", color: "#F7931E", bg: "#F7931E20", category: "Data Science" },
-  { name: "PostgreSQL", key: "postgresql", color: "#336791", bg: "#33679120", category: "Database" },
+  // { name: "PostgreSQL", key: "postgresql", color: "#336791", bg: "#33679120", category: "Database" },
   { name: "Git", key: "git", color: "#F05032", bg: "#F0503220", category: "Tools" },
   { name: "GitHub", key: "github", color: "THEME", bg: "THEME", category: "Tools", Icon: GithubIcon },
   { name: "DSA", key: "dsa", color: "#a78bfa", bg: "#a78bfa20", category: "Concepts" },
