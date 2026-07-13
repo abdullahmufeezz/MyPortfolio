@@ -47,7 +47,7 @@ const EDUCATION = [
 ];
 
 const NAV = ["Home", "About", "Skills", "Projects", "Contact"];
-const TITLES = ["CS Student", "Frontend Developer", "Problem Solver"];
+const TITLES = ["AI & ML Enthusiats", "Frontend Developer", "Problem Solver"];
 
 export default function App() {
   const [dark, setDark] = useState(true);
