@@ -20,7 +20,7 @@ export default function About({ sectionRef, fi, EDUCATION, SOCIALS, pill, T }) {
             <div style={{ padding: "1.1rem 1.25rem", borderRadius: "12px", background: T.bg, border: `1px solid ${T.border}`, marginBottom: "1.5rem" }}>
               <p style={{ fontWeight: 600, color: T.text2, marginBottom: "0.7rem", fontSize: "0.73rem", letterSpacing: "0.08em", textTransform: "uppercase" }}>Courses Completed</p>
               <span style={{ display: "inline-flex", alignItems: "center", gap: "0.4rem", padding: "0.35rem 0.9rem", borderRadius: "99px", background: T.glow, border: `1px solid ${T.accent}`, fontSize: "0.82rem", color: T.accent2, fontWeight: 500 }}>
-                <Database size={13} /> PITP – Data Science
+                <Database size={13} /> Data Science
               </span>
             </div>
 
