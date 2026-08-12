@@ -16,14 +16,14 @@ export default function Navbar({ NAV, active, go, dark, setDark, menu, setMenu, 
           ))}
         </ul>
 
-        <div style={{ display: "flex", gap: "0.6rem", alignItems: "center" }}>
+        {/* <div style={{ display: "flex", gap: "0.6rem", alignItems: "center" }}>
           <button onClick={() => setDark(d => !d)} style={{ width: "38px", height: "38px", borderRadius: "50%", border: `1px solid ${T.border}`, background: T.bg3, cursor: "pointer", display: "flex", alignItems: "center", justifyindex: "center", justifyContent: "center", transition: "all .2s", color: T.text }}>
             {dark ? <Sun size={16} color="#f59e0b" /> : <Moon size={16} color="#6366f1" />}
           </button>
           <button className="mb" onClick={() => setMenu(m => !m)} style={{ display: "none", width: "38px", height: "38px", borderRadius: "8px", border: `1px solid ${T.border}`, background: T.bg3, cursor: "pointer", alignItems: "center", justifyContent: "center", color: T.text }}>
             {menu ? <X size={16} /> : <Menu size={16} />}
           </button>
-        </div>
+        </div> */}
       </nav>
 
       {menu && (
