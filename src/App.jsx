@@ -120,7 +120,7 @@ export default function App() {
   const SOCIALS = [
     { href: "https://github.com/abdullahmufeezz", Icon: GithubIcon, label: "GitHub", color: ghColor, bg: ghBg, bdr: ghBdr },
     { href: "https://www.linkedin.com/in/muhammad-abdullah-mufeez/", Icon: LinkedinIcon, label: "LinkedIn", color: "#0077b5", bg: "#0077b514", bdr: "#0077b530" },
-    { href: "mailto:abdullahmufeez321@gmail.com", Icon: () => <Mail size={15} />, label: "Gmail", color: "#ea4335", bg: "#ea433514", bdr: "#ea433530" },
+    { href: "mailto:abdullahmufeez247@gmail.com", Icon: () => <Mail size={15} />, label: "Gmail", color: "#ea4335", bg: "#ea433514", bdr: "#ea433530" },
     // { href: "https://twitter.com", Icon: TwitterIcon, label: "Twitter", color: "#1da1f2", bg: "#1da1f214", bdr: "#1da1f230" },
     // { href: "https://instagram.com", Icon: InstagramIcon, label: "Instagram", color: "#e1306c", bg: "#e1306c14", bdr: "#e1306c30" },
   ];
