@@ -12,7 +12,7 @@ export default function Contact({ sectionRef, fi, SOCIALS, pill, T }) {
 
         <div className="cg" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem", marginBottom: "2.5rem", ...fi("contact", 0.1) }}>
           {[
-            { LIcon: Mail, label: "Email", value: "abdullahmufeez321@gmail.com", href: "mailto:abdullahmufeez321@gmail.com", color: "#ea4335" },
+            { LIcon: Mail, label: "Email", value: "abdullahmufeez247@gmail.com", href: "mailto:abdullahmufeez247@gmail.com", color: "#ea4335" },
             { LIcon: Phone, label: "Phone", value: "+92 303 2505537", href: "tel:+923032505537", color: "#10b981" },
           ].map(c => (
             <a key={c.label} href={c.href} className="crd" style={{ padding: "1.5rem", borderRadius: "16px", background: T.bg2, border: `1px solid ${T.border}`, textDecoration: "none", display: "flex", alignItems: "center", gap: "1rem", transition: "all .22s" }}>
